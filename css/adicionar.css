@@ -1,0 +1,169 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+
+
+.alinhamento-tela{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    display: flex;
+    flex-flow: row wrap; 
+    
+    
+}
+
+
+.container{
+    max-width: 600px;
+    min-height: 100%;    
+    font-weight: 700;
+    border: 1px solid var(--cor-quarta);
+    box-shadow: 0 0 10px 0 rgb(50 50 50 / 82%);
+    margin:auto;
+    padding:0;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    border-radius: 4px; 
+    display: flex;
+    flex-flow: column wrap; 
+     
+      
+}
+
+.botao{
+    display:flex;
+    flex-flow: column wrap;
+    flex-direction: row;  
+    justify-content: flex-end;
+}
+.nome-email{
+    display:flex;
+    flex-flow: column wrap;
+    flex-direction: row;   
+    justify-content: space-between; 
+}
+
+.senha-sexo-tipo{
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sexo-tipo {
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction:row ;
+    justify-content: center;
+}
+.observacao{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+}
+
+.cabecalho,.titulo,.nome-email,.modulo,.senha-sexo-tipo,.observacao,.botao,.nome,.email,.senha,.tipo,.sexo{
+    padding:5px 10px;    
+}
+.cabecalho{
+    background-color: var(--cor-principal);
+    
+}
+
+.senha-sexo-tipo,.nome-email{
+    margin-bottom: 20px;    
+}
+button{    
+    border-radius: 4px;
+    width: 100px;    
+    padding:5px 10px;  
+    
+    
+}
+
+/*marcacao*/
+.botao > #salvar{
+    color:white;
+    background-color: var(--cor-principal);
+    border:0;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#salvar:hover{
+
+    background-color: var(--cor-terciaria);
+}
+.botao > #cancelar{
+    color: var(--cor-principal);
+    background-color: white;
+    border:0;
+    cursor: pointer;
+    border: 1px solid var(--cor-principal);
+}
+
+#cancelar:hover{
+
+    background-color: var(--cor-secundaria);
+}
+
+textarea{
+    border: 0;
+}
+.observacao > textarea{   
+    height:100px;
+    resize: none;
+    border: 1px solid var(--cor-quarta);
+    border-radius: 4px;
+}
+
+
+
+input{
+    padding:5px;
+    width: 100px;
+    border: 0;
+}
+
+.senha > input{
+
+    border: 1px solid var(--cor-quarta);
+    border-radius: 4px;
+    width: 140px;
+    
+}
+
+
+.email > input{
+    width: 350px;
+    border:0;
+    border-radius: 4px;
+    border: 1px solid var(--cor-quarta);
+}
+.nome > input{
+    width:150px ;
+    border-radius: 4px;
+    border: 1px solid var(--cor-quarta);
+}
+
+.sexo > select{  
+    padding:4px;
+    width: 180px;
+    border-radius: 4px;
+    border: 1px solid var(--cor-quarta);
+    
+}
+.tipo > select{   
+    padding:6px;
+    width: 180px;
+    border: 1px solid var(--cor-quarta);
+    border-radius: 4px;
+    padding: 4px;
+    
+}
+

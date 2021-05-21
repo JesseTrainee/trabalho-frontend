@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Usuário | Serratec</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base-2.css">
+    <link rel="stylesheet" href="./css/adicionar.css">
+</head>
+<body>
+
+    <div class="responsiva">
+        <div class="alinhamento-tela">
+            <div class="container">
+                <header class="cabecalho">
+                    <div class="titulo">
+                        <h2>Adicionar Usuário</h2>
+                    </div>
+                </header>
+
+                <div class="alinhamento">
+                    <div class="nome-email">
+                            <div class="nome">
+                                <label for="name">Nome</label>
+                                <br>
+                                <input type="text" name="nome" placeholder="Nome">
+                            </div>
+                            
+                            <div class="email">
+                                <label for="email">E-mail</label><br>
+                                <input type="email" name="email" placeholder="E-mail">
+                        </div>
+                    
+                    </div>
+                </div>
+            
+                <!--marcação -->
+                <div class="senha-sexo-tipo">
+                        <div class="senha">
+                            <label for="senha">Senha</label><br>
+                            <input type="password" name="senha" placeholder="Senha">
+                        </div>
+                            <div class="sexo-tipo">
+                                <div class="sexo">
+                                    <label for="sexo">Sexo</label><br>
+                                    <select name="sexo" id="sexo">
+                                        <option value="masculino">Masculino</option>
+                                        <option value="feminino">Feminino</option>
+                                    </select>
+                                </div>
+
+                                <div class="tipo">
+                                    <label for="tipo-dev">Tipo de Dev</label><br>
+                                    <select name="tipo-dev" id="tipo-dev">
+                                        <option value="frontend">Frontend</option>
+                                        <option value="backend">Backend</option>
+                                        <option value="fullstack">Fullstack</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                </div>
+                <div class="modulo">
+                    <div class="observacao">
+                        <label for="observacao">Observação</label>          
+                        <textarea name="observacao" id="observacao"></textarea>
+                    </div>
+                </div>
+
+                <div class="modulo">
+                    <div class="botao">                       
+                            <button id="salvar" onclick="" >Salvar</button>   
+                            <button id="cancelar" onclick="" >Cancelar</button>  
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+   
+
+
+</body>
+</html>
